@@ -1,0 +1,18 @@
+.gridBox{
+    
+    background-color:  aquamarine;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    height: 600px;
+    width: 600px;
+    flex-wrap: wrap;
+    gap: 0px;
+    box-sizing: border-box;
+    
+}
+.pinkColor{
+    background-color: pink;
+}
