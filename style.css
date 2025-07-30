@@ -1,18 +1,53 @@
 .gridBox{
     
-    background-color:  aquamarine;
+    background-color:  rgb(255, 255, 255);
     box-sizing: border-box;
+   opacity:;
 }
 
 .container{
     display: flex;
-    height: 600px;
-    width: 600px;
+    height: 550px;
+    width: 550px;
     flex-wrap: wrap;
+
     gap: 0px;
-    box-sizing: border-box;
-    
+    border: 5px solid black;
+    /* border-radius: 3%; */
+    background-color: white;
 }
 .pinkColor{
-    background-color: pink;
+    background-color:rgb(46, 244, 244);
+}
+.centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+}
+.buttonsContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px
+}
+button{
+    height: 50px;
+    width: 120px;
+    font-size: large;
+    border: 3px solid black;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+html{
+    background-color: rgb(161, 164, 164);
+}
+
+button:hover{
+    transform: scale(1.1);
 }
